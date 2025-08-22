@@ -6,7 +6,7 @@ var jn = (t, r, e) => r in t ? Tn(t, r, {
   value: e
 }) : t[r] = e;
 var sr = (t, r, e) => jn(t, typeof r != "symbol" ? r + "" : r, e);
-import "./modulepreload-polyfill-B5Qt9EMX.js";
+import "./polyfill.js";
 /**
  * @license
  * MIT License
